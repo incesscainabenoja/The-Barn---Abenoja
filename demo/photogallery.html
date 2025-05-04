@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bievenido Al Paraiso</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #e27e7e url(images/2.jpg);
+            background-color: #f8f8f81a;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #da6f6169;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(194, 184, 184, 0.041);
+            border-radius: 3px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .love-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .love-gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .love-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #da6f6169;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bievenido Al Paraiso</h1>
+        <p>Discover the beauty of flowers intertwined with love.</p>
+    </header>
+
+    <section>
+        <div class="love-gallery">
+            <img src="11.jpg" alt="Love Flower 1">
+            <img src="22.jpg" alt="Love Flower 2">
+            <img src="33.jpg" alt="Love Flower 3">
+            <img src="44.jpg" alt="Love Flower 4">
+            <img src="55.jpg" alt="Love Flower 5">
+            <img src="66.jpg" alt="Love Flower 6">
+            <img src="77.jpg" alt="Love Flower 7">
+            <img src="88.jpg" alt="Love Flower 8">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Floral Love Gallery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
